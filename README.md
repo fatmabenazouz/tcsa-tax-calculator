@@ -69,3 +69,5 @@ For local API testing: install Vercel CLI with `npm i -g vercel` then run `verce
 2. Import repo on vercel.com
 3. Add environment variables
 4. Deploy — Vercel handles routing automatically via `vercel.json`
+
+Made by [Fatma Ben Azouz](https://github.com/fatmabenazouz) • 2026
