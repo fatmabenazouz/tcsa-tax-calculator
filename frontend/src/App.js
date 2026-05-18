@@ -101,7 +101,7 @@ export default function App() {
                 <label htmlFor="name">Your Name (optional)</label>
                 <input
                   id="name" name="name" type="text"
-                  placeholder="e.g. Fatma Ben Azouz"
+                  placeholder="e.g. John Smith"
                   value={form.name} onChange={handleChange}
                 />
               </div>
@@ -216,7 +216,7 @@ export default function App() {
 
       {/* FOOTER */}
       <footer className="footer">
-        Built for <span>Tax Consulting SA</span> · Based on SARS 2026/27 tax tables · For illustrative purposes only
+        Built for <span>Tax Consulting SA</span> · 2026
       </footer>
     </div>
   );
