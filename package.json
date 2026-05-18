@@ -1,0 +1,11 @@
+{
+    "name": "tcsa-tax-calculator",
+    "version": "1.0.0",
+    "description": "SARS Tax Bracket Calculator - Full Stack App",
+    "scripts": {
+      "dev": "cd frontend && npm start"
+    },
+    "dependencies": {
+      "@supabase/supabase-js": "^2.39.0"
+    }
+  }
