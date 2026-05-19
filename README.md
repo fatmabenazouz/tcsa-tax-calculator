@@ -3,8 +3,7 @@
 A full-stack SARS income tax calculator built for Tax Consulting SA.
 Users enter their annual income and age to calculate their tax liability,
 effective rate, marginal rate, and monthly take-home pay for the 2026/27
-tax year. All calculations are saved to a Supabase database with full
-create, read, and delete functionality.
+tax year. All calculations are saved to a Supabase database with full functionality.
 
 ## Live Demo
 > https://tcsa-tax-calculator.vercel.app/
@@ -12,17 +11,17 @@ create, read, and delete functionality.
 ## Tech Stack
 - **Frontend:** React 18, Axios, CSS3
 - **Backend:** Node.js
-- **Database:** Supabase (PostgreSQL)
+- **Database:** Supabase
 - **Hosting:** Vercel
 
 ## Features
 - Calculate tax based on 2026/27 SARS brackets
-- Age-based rebates (Primary / Secondary / Tertiary)
+- Age-based rebates 
 - Results: annual tax, effective rate, marginal rate, monthly take-home 
 - Save every calculation to Supabase (Create)
 - View recent calculations on load (Read)
 - Delete any saved calculation (Delete)
-- Responsive UI in Tax Consulting SA brand colours
+- Responsive UI in Tax Consulting SA colour palette
 
 ## Environment Variables
 
@@ -52,23 +51,21 @@ CREATE TABLE calculations (
 
 ## Local Setup
 ```bash
-# Root
+# root
 npm install
 
-# Frontend
+# frontend
 cd frontend
 npm install
 npm start
 ```
 
-For local API testing: install Vercel CLI with `npm i -g vercel` then run `vercel dev` from the root.
-
 ## Deployment
 
-1. Push to GitHub (`tcsa-tax-calculator`)
+1. Push to GitHub
 2. Import repo on vercel.com
 3. Add environment variables
-4. Deploy — Vercel handles routing automatically via `vercel.json`
+4. Deploy
 
 ## Assumptions & Limitations
 - Individual taxpayers only
