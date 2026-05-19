@@ -7,7 +7,7 @@ tax year. All calculations are saved to a Supabase database with full
 create, read, and delete functionality.
 
 ## Live Demo
-> 
+> https://tcsa-tax-calculator.vercel.app/
 
 ## Tech Stack
 - **Frontend:** React 18, Axios, CSS3
@@ -69,5 +69,11 @@ For local API testing: install Vercel CLI with `npm i -g vercel` then run `verce
 2. Import repo on vercel.com
 3. Add environment variables
 4. Deploy — Vercel handles routing automatically via `vercel.json`
+
+## Assumptions & Limitations
+- Individual taxpayers only
+- Standard rebates only — no pension, medical aid, or travel deductions
+- Tax brackets based on 2026/27 SARS tables
+- For illustrative purposes only
 
 Made by [Fatma Ben Azouz](https://github.com/fatmabenazouz) • 2026
